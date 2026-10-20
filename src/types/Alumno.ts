@@ -1,0 +1,273 @@
+export interface Alumno {
+    Matricula: number;
+    Nombre: string;
+    ApellidoPaterno: string;
+    ApellidoMaterno: string;
+    Carrera: string;
+    Semestre: number;
+    Promedio: number;
+    ImagenURL: string;
+}
+
+export const listaAlumnos: Alumno[] = [
+    {
+        Matricula: 1984215,
+        Nombre: "Carlos Alberto",
+        ApellidoPaterno: "Garza",
+        ApellidoMaterno: "Martínez",
+        Carrera: "Licenciatura en Ciencias Computacionales",
+        Semestre: 8,
+        Promedio: 92.4,
+        ImagenURL: "https://example.com/images/carlos.jpg"
+    },
+    {
+        Matricula: 2041234,
+        Nombre: "Sofía",
+        ApellidoPaterno: "Rodríguez",
+        ApellidoMaterno: "Treviño",
+        Carrera: "Licenciatura en Multimedia y Animación Digital",
+        Semestre: 4,
+        Promedio: 95.1,
+        ImagenURL: "https://example.com/images/sofia.jpg"
+    },
+    {
+        Matricula: 2109876,
+        Nombre: "Daniel Alejandro",
+        ApellidoPaterno: "Sánchez",
+        ApellidoMaterno: "Pérez",
+        Carrera: "Licenciatura en Seguridad de Tecnologías de Información",
+        Semestre: 2,
+        Promedio: 88.3,
+        ImagenURL: "https://example.com/images/daniel.jpg"
+    },
+    {
+        Matricula: 1856321,
+        Nombre: "Valeria",
+        ApellidoPaterno: "González",
+        ApellidoMaterno: "Cavazos",
+        Carrera: "Licenciatura en Actuaría",
+        Semestre: 10,
+        Promedio: 96.8,
+        ImagenURL: "https://example.com/images/valeria.jpg"
+    },
+    {
+        Matricula: 2078901,
+        Nombre: "Jorge Luis",
+        ApellidoPaterno: "Hernández",
+        ApellidoMaterno: "Morales",
+        Carrera: "Licenciatura en Física",
+        Semestre: 6,
+        Promedio: 90.0,
+        ImagenURL: "https://example.com/images/jorge.jpg"
+    },
+    {
+        Matricula: 2215432,
+        Nombre: "Andrea",
+        ApellidoPaterno: "Villareal",
+        ApellidoMaterno: "Elizondo",
+        Carrera: "Licenciatura en Matemáticas",
+        Semestre: 1,
+        Promedio: 94.2,
+        ImagenURL: "https://example.com/images/andrea.jpg"
+    },
+    {
+        Matricula: 2198342,
+        Nombre: "Alejandro",
+        ApellidoPaterno: "Flores",
+        ApellidoMaterno: "Salinas",
+        Carrera: "Licenciatura en Ciencias Computacionales",
+        Semestre: 5,
+        Promedio: 89.5,
+        ImagenURL: "https://example.com/images/alejandro.jpg"
+    },
+    {
+        Matricula: 2234567,
+        Nombre: "Mariana",
+        ApellidoPaterno: "De la Garza",
+        ApellidoMaterno: "Guajardo",
+        Carrera: "Licenciatura en Multimedia y Animación Digital",
+        Semestre: 3,
+        Promedio: 93.0,
+        ImagenURL: "https://example.com/images/mariana.jpg"
+    },
+    {
+        Matricula: 1954321,
+        Nombre: "Héctor Manuel",
+        ApellidoPaterno: "Ramírez",
+        ApellidoMaterno: "Castillo",
+        Carrera: "Licenciatura en Seguridad de Tecnologías de Información",
+        Semestre: 9,
+        Promedio: 91.2,
+        ImagenURL: "https://example.com/images/hector.jpg"
+    },
+    {
+        Matricula: 2087654,
+        Nombre: "Diana Laura",
+        ApellidoPaterno: "Medina",
+        ApellidoMaterno: "Ríos",
+        Carrera: "Licenciatura en Actuaría",
+        Semestre: 7,
+        Promedio: 97.4,
+        ImagenURL: "https://example.com/images/diana.jpg"
+    },
+    {
+        Matricula: 2143210,
+        Nombre: "Fernando",
+        ApellidoPaterno: "Cantú",
+        ApellidoMaterno: "Bustamante",
+        Carrera: "Licenciatura en Física",
+        Semestre: 4,
+        Promedio: 85.6,
+        ImagenURL: "https://example.com/images/fernando.jpg"
+    },
+    {
+        Matricula: 2278901,
+        Nombre: "Paulina",
+        ApellidoPaterno: "Ibarra",
+        ApellidoMaterno: "Alanís",
+        Carrera: "Licenciatura en Matemáticas",
+        Semestre: 2,
+        Promedio: 94.8,
+        ImagenURL: "https://example.com/images/paulina.jpg"
+    },
+    {
+        Matricula: 1923456,
+        Nombre: "Ricardo",
+        ApellidoPaterno: "Villarreal",
+        ApellidoMaterno: "Montemayor",
+        Carrera: "Licenciatura en Ciencias Computacionales",
+        Semestre: 10,
+        Promedio: 90.1,
+        ImagenURL: "https://example.com/images/ricardo.jpg"
+    },
+    {
+        Matricula: 2065432,
+        Nombre: "Daniela",
+        ApellidoPaterno: "Sepúlveda",
+        ApellidoMaterno: "Lozano",
+        Carrera: "Licenciatura en Multimedia y Animación Digital",
+        Semestre: 6,
+        Promedio: 92.5,
+        ImagenURL: "https://example.com/images/daniela.jpg"
+    },
+    {
+        Matricula: 2176543,
+        Nombre: "Luis Ángel",
+        ApellidoPaterno: "Mendoza",
+        ApellidoMaterno: "Silva",
+        Carrera: "Licenciatura en Seguridad de Tecnologías de Información",
+        Semestre: 3,
+        Promedio: 88.9,
+        ImagenURL: "https://example.com/images/luis.jpg"
+    },
+    {
+        Matricula: 1898765,
+        Nombre: "Brenda",
+        ApellidoPaterno: "Zambrano",
+        ApellidoMaterno: "Tamez",
+        Carrera: "Licenciatura en Actuaría",
+        Semestre: 8,
+        Promedio: 95.5,
+        ImagenURL: "https://example.com/images/brenda.jpg"
+    },
+    {
+        Matricula: 2254321,
+        Nombre: "José Antonio",
+        ApellidoPaterno: "Ponce",
+        ApellidoMaterno: "Estrada",
+        Carrera: "Licenciatura en Física",
+        Semestre: 1,
+        Promedio: 91.0,
+        ImagenURL: "https://example.com/images/jose.jpg"
+    },
+    {
+        Matricula: 2012345,
+        Nombre: "Gabriela",
+        ApellidoPaterno: "Márquez",
+        ApellidoMaterno: "Cuevas",
+        Carrera: "Licenciatura en Matemáticas",
+        Semestre: 7,
+        Promedio: 96.2,
+        ImagenURL: "https://example.com/images/gabriela.jpg"
+    },
+    {
+        Matricula: 2187654,
+        Nombre: "Eduardo",
+        ApellidoPaterno: "Navarro",
+        ApellidoMaterno: "Sifuentes",
+        Carrera: "Licenciatura en Ciencias Computacionales",
+        Semestre: 5,
+        Promedio: 87.4,
+        ImagenURL: "https://example.com/images/eduardo.jpg"
+    },
+    {
+        Matricula: 1976543,
+        Nombre: "Karla Sofía",
+        ApellidoPaterno: "Ochoa",
+        ApellidoMaterno: "Palacios",
+        Carrera: "Licenciatura en Multimedia y Animación Digital",
+        Semestre: 9,
+        Promedio: 94.3,
+        ImagenURL: "https://example.com/images/karla.jpg"
+    },
+    {
+        Matricula: 2245678,
+        Nombre: "Roberto",
+        ApellidoPaterno: "Meza",
+        ApellidoMaterno: "Adame",
+        Carrera: "Licenciatura en Seguridad de Tecnologías de Información",
+        Semestre: 2,
+        Promedio: 89.1,
+        ImagenURL: "https://example.com/images/roberto.jpg"
+    },
+    {
+        Matricula: 2098765,
+        Nombre: "Natalia",
+        ApellidoPaterno: "Ovalle",
+        ApellidoMaterno: "Benavides",
+        Carrera: "Licenciatura en Actuaría",
+        Semestre: 6,
+        Promedio: 98.0,
+        ImagenURL: "https://example.com/images/natalia.jpg"
+    },
+    {
+        Matricula: 2165432,
+        Nombre: "Francisco Javier",
+        ApellidoPaterno: "Lara",
+        ApellidoMaterno: "Valdez",
+        Carrera: "Licenciatura en Física",
+        Semestre: 4,
+        Promedio: 86.5,
+        ImagenURL: "https://example.com/images/francisco.jpg"
+    },
+    {
+        Matricula: 2298765,
+        Nombre: "Jessica",
+        ApellidoPaterno: "Cárdenas",
+        ApellidoMaterno: "Leal",
+        Carrera: "Licenciatura en Matemáticas",
+        Semestre: 1,
+        Promedio: 92.8,
+        ImagenURL: "https://example.com/images/jessica.jpg"
+    },
+    {
+        Matricula: 1943210,
+        Nombre: "Mauricio",
+        ApellidoPaterno: "Guerrero",
+        ApellidoMaterno: "Esquivel",
+        Carrera: "Licenciatura en Ciencias Computacionales",
+        Semestre: 10,
+        Promedio: 91.9,
+        ImagenURL: "https://example.com/images/mauricio.jpg"
+    },
+    {
+        Matricula: 2034567,
+        Nombre: "Paola",
+        ApellidoPaterno: "Rangel",
+        ApellidoMaterno: "Hinojosa",
+        Carrera: "Licenciatura en Multimedia y Animación Digital",
+        Semestre: 8,
+        Promedio: 95.0,
+        ImagenURL: "https://example.com/images/paola.jpg"
+    }
+];

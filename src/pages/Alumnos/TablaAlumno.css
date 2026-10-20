@@ -1,0 +1,15 @@
+.tbl-alumnos {
+    width: 100%;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.tbl-head tr {
+    background-color: navy;
+    color: white;
+
+}
+
+.tbl-head th {
+    padding: 5px;
+}
