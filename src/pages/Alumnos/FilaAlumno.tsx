@@ -1,5 +1,6 @@
 import type { Alumno } from "../../types/Alumno"
 import './FilaAlumno.css'
+import { useNavigate} from 'react-router-dom'
 
 interface Props {
     Alumno: Alumno;
@@ -7,8 +8,13 @@ interface Props {
 
 export default function FilaAlumno({ Alumno }: Props) {
 
+    const navigate = useNavigate();
+
     const nombreCompleto = `${Alumno.Nombre} ${Alumno.ApellidoPaterno} ${Alumno.ApellidoMaterno}`
 
+    const handleVerDetalle = () => {
+        navigate(`/alumnos/perfil?id=${Alumno.Matricula}`);
+    }
     return (
         <>
             <tr>
@@ -30,7 +36,7 @@ export default function FilaAlumno({ Alumno }: Props) {
                 <td className="text-center">{Alumno.Semestre}</td>
                 <td className="text-center">{Alumno.Promedio}</td>
                 <td>
-                    <button>Ver detalle</button>
+                    <button onClick={() => handleVerDetalle()}>Ver detalle</button>
                 </td>
             </tr>
         </>

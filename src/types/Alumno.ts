@@ -1,12 +1,12 @@
 export interface Alumno {
-    Matricula: number;
-    Nombre: string;
-    ApellidoPaterno: string;
-    ApellidoMaterno: string;
-    Carrera: string;
-    Semestre: number;
-    Promedio: number;
-    ImagenURL: string;
+    Matricula?: number;
+    Nombre?: string;
+    ApellidoPaterno?: string;
+    ApellidoMaterno?: string;
+    Carrera?: string;
+    Semestre?: number;
+    Promedio?: number;
+    ImagenURL?: string;
 }
 
 export const listaAlumnos: Alumno[] = [
@@ -15,7 +15,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Carlos Alberto",
         ApellidoPaterno: "Garza",
         ApellidoMaterno: "Martínez",
-        Carrera: "Licenciatura en Ciencias Computacionales",
+        Carrera: "LCC",
         Semestre: 8,
         Promedio: 92.4,
         ImagenURL: "https://example.com/images/carlos.jpg"
@@ -25,7 +25,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Sofía",
         ApellidoPaterno: "Rodríguez",
         ApellidoMaterno: "Treviño",
-        Carrera: "Licenciatura en Multimedia y Animación Digital",
+        Carrera: "LMAD",
         Semestre: 4,
         Promedio: 95.1,
         ImagenURL: "https://example.com/images/sofia.jpg"
@@ -35,7 +35,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Daniel Alejandro",
         ApellidoPaterno: "Sánchez",
         ApellidoMaterno: "Pérez",
-        Carrera: "Licenciatura en Seguridad de Tecnologías de Información",
+        Carrera: "LSTI",
         Semestre: 2,
         Promedio: 88.3,
         ImagenURL: "https://example.com/images/daniel.jpg"
@@ -45,7 +45,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Valeria",
         ApellidoPaterno: "González",
         ApellidoMaterno: "Cavazos",
-        Carrera: "Licenciatura en Actuaría",
+        Carrera: "LA",
         Semestre: 10,
         Promedio: 96.8,
         ImagenURL: "https://example.com/images/valeria.jpg"
@@ -55,7 +55,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Jorge Luis",
         ApellidoPaterno: "Hernández",
         ApellidoMaterno: "Morales",
-        Carrera: "Licenciatura en Física",
+        Carrera: "LFC",
         Semestre: 6,
         Promedio: 90.0,
         ImagenURL: "https://example.com/images/jorge.jpg"
@@ -65,7 +65,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Andrea",
         ApellidoPaterno: "Villareal",
         ApellidoMaterno: "Elizondo",
-        Carrera: "Licenciatura en Matemáticas",
+        Carrera: "LM",
         Semestre: 1,
         Promedio: 94.2,
         ImagenURL: "https://example.com/images/andrea.jpg"
@@ -75,7 +75,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Alejandro",
         ApellidoPaterno: "Flores",
         ApellidoMaterno: "Salinas",
-        Carrera: "Licenciatura en Ciencias Computacionales",
+        Carrera: "LCC",
         Semestre: 5,
         Promedio: 89.5,
         ImagenURL: "https://example.com/images/alejandro.jpg"
@@ -85,7 +85,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Mariana",
         ApellidoPaterno: "De la Garza",
         ApellidoMaterno: "Guajardo",
-        Carrera: "Licenciatura en Multimedia y Animación Digital",
+        Carrera: "LMAD",
         Semestre: 3,
         Promedio: 93.0,
         ImagenURL: "https://example.com/images/mariana.jpg"
@@ -95,7 +95,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Héctor Manuel",
         ApellidoPaterno: "Ramírez",
         ApellidoMaterno: "Castillo",
-        Carrera: "Licenciatura en Seguridad de Tecnologías de Información",
+        Carrera: "LSTI",
         Semestre: 9,
         Promedio: 91.2,
         ImagenURL: "https://example.com/images/hector.jpg"
@@ -105,7 +105,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Diana Laura",
         ApellidoPaterno: "Medina",
         ApellidoMaterno: "Ríos",
-        Carrera: "Licenciatura en Actuaría",
+        Carrera: "LA",
         Semestre: 7,
         Promedio: 97.4,
         ImagenURL: "https://example.com/images/diana.jpg"
@@ -115,7 +115,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Fernando",
         ApellidoPaterno: "Cantú",
         ApellidoMaterno: "Bustamante",
-        Carrera: "Licenciatura en Física",
+        Carrera: "LFC",
         Semestre: 4,
         Promedio: 85.6,
         ImagenURL: "https://example.com/images/fernando.jpg"
@@ -125,7 +125,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Paulina",
         ApellidoPaterno: "Ibarra",
         ApellidoMaterno: "Alanís",
-        Carrera: "Licenciatura en Matemáticas",
+        Carrera: "LM",
         Semestre: 2,
         Promedio: 94.8,
         ImagenURL: "https://example.com/images/paulina.jpg"
@@ -135,7 +135,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Ricardo",
         ApellidoPaterno: "Villarreal",
         ApellidoMaterno: "Montemayor",
-        Carrera: "Licenciatura en Ciencias Computacionales",
+        Carrera: "LCC",
         Semestre: 10,
         Promedio: 90.1,
         ImagenURL: "https://example.com/images/ricardo.jpg"
@@ -145,7 +145,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Daniela",
         ApellidoPaterno: "Sepúlveda",
         ApellidoMaterno: "Lozano",
-        Carrera: "Licenciatura en Multimedia y Animación Digital",
+        Carrera: "LMAD",
         Semestre: 6,
         Promedio: 92.5,
         ImagenURL: "https://example.com/images/daniela.jpg"
@@ -155,7 +155,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Luis Ángel",
         ApellidoPaterno: "Mendoza",
         ApellidoMaterno: "Silva",
-        Carrera: "Licenciatura en Seguridad de Tecnologías de Información",
+        Carrera: "LSTI",
         Semestre: 3,
         Promedio: 88.9,
         ImagenURL: "https://example.com/images/luis.jpg"
@@ -165,7 +165,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Brenda",
         ApellidoPaterno: "Zambrano",
         ApellidoMaterno: "Tamez",
-        Carrera: "Licenciatura en Actuaría",
+        Carrera: "LA",
         Semestre: 8,
         Promedio: 95.5,
         ImagenURL: "https://example.com/images/brenda.jpg"
@@ -175,7 +175,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "José Antonio",
         ApellidoPaterno: "Ponce",
         ApellidoMaterno: "Estrada",
-        Carrera: "Licenciatura en Física",
+        Carrera: "LFC",
         Semestre: 1,
         Promedio: 91.0,
         ImagenURL: "https://example.com/images/jose.jpg"
@@ -185,7 +185,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Gabriela",
         ApellidoPaterno: "Márquez",
         ApellidoMaterno: "Cuevas",
-        Carrera: "Licenciatura en Matemáticas",
+        Carrera: "LM",
         Semestre: 7,
         Promedio: 96.2,
         ImagenURL: "https://example.com/images/gabriela.jpg"
@@ -195,7 +195,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Eduardo",
         ApellidoPaterno: "Navarro",
         ApellidoMaterno: "Sifuentes",
-        Carrera: "Licenciatura en Ciencias Computacionales",
+        Carrera: "LCC",
         Semestre: 5,
         Promedio: 87.4,
         ImagenURL: "https://example.com/images/eduardo.jpg"
@@ -205,7 +205,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Karla Sofía",
         ApellidoPaterno: "Ochoa",
         ApellidoMaterno: "Palacios",
-        Carrera: "Licenciatura en Multimedia y Animación Digital",
+        Carrera: "LMAD",
         Semestre: 9,
         Promedio: 94.3,
         ImagenURL: "https://example.com/images/karla.jpg"
@@ -215,7 +215,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Roberto",
         ApellidoPaterno: "Meza",
         ApellidoMaterno: "Adame",
-        Carrera: "Licenciatura en Seguridad de Tecnologías de Información",
+        Carrera: "LSTI",
         Semestre: 2,
         Promedio: 89.1,
         ImagenURL: "https://example.com/images/roberto.jpg"
@@ -225,7 +225,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Natalia",
         ApellidoPaterno: "Ovalle",
         ApellidoMaterno: "Benavides",
-        Carrera: "Licenciatura en Actuaría",
+        Carrera: "LA",
         Semestre: 6,
         Promedio: 98.0,
         ImagenURL: "https://example.com/images/natalia.jpg"
@@ -235,7 +235,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Francisco Javier",
         ApellidoPaterno: "Lara",
         ApellidoMaterno: "Valdez",
-        Carrera: "Licenciatura en Física",
+        Carrera: "LFC",
         Semestre: 4,
         Promedio: 86.5,
         ImagenURL: "https://example.com/images/francisco.jpg"
@@ -245,7 +245,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Jessica",
         ApellidoPaterno: "Cárdenas",
         ApellidoMaterno: "Leal",
-        Carrera: "Licenciatura en Matemáticas",
+        Carrera: "LM",
         Semestre: 1,
         Promedio: 92.8,
         ImagenURL: "https://example.com/images/jessica.jpg"
@@ -255,7 +255,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Mauricio",
         ApellidoPaterno: "Guerrero",
         ApellidoMaterno: "Esquivel",
-        Carrera: "Licenciatura en Ciencias Computacionales",
+        Carrera: "LCC",
         Semestre: 10,
         Promedio: 91.9,
         ImagenURL: "https://example.com/images/mauricio.jpg"
@@ -265,7 +265,7 @@ export const listaAlumnos: Alumno[] = [
         Nombre: "Paola",
         ApellidoPaterno: "Rangel",
         ApellidoMaterno: "Hinojosa",
-        Carrera: "Licenciatura en Multimedia y Animación Digital",
+        Carrera: "LMAD",
         Semestre: 8,
         Promedio: 95.0,
         ImagenURL: "https://example.com/images/paola.jpg"

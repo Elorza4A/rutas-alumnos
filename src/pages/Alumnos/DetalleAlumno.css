@@ -1,0 +1,77 @@
+/* Contenedor principal o form */
+form {
+    max-width: 500px;
+    margin: 2rem auto;
+    padding: 0;
+    font-family: system-ui, -apple-system, sans-serif;
+}
+
+fieldset {
+    border: 1px solid #cbd5e1;
+    border-radius: 8px;
+    padding: 24px;
+    background-color: #f8fafc;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1);
+}
+
+legend {
+    font-weight: 600;
+    color: #1e293b;
+    padding: 0 8px;
+}
+
+/* Espaciado de cada campo */
+form div {
+    margin-bottom: 16px;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Etiquetas */
+label {
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: #475569;
+    margin-bottom: 6px;
+}
+
+/* Inputs y Selects */
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 1rem;
+    background-color: #ffffff;
+    color: #0f172a;
+    box-sizing: border-box; /* Para que el padding no rompa el ancho */
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+/* Efecto al hacer foco en los inputs */
+input:focus,
+select:focus {
+    outline: none;
+    border-color: #3b82f6;
+    box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.15);
+}
+
+/* Botón de envío */
+button[type="submit"] {
+    width: 100%;
+    background-color: #2563eb;
+    color: white;
+    font-weight: 600;
+    padding: 12px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-top: 8px;
+    transition: background-color 0.2s;
+}
+
+button[type="submit"]:hover {
+    background-color: #1d4ed8;
+}
